@@ -1,0 +1,5 @@
+package edu.kh.model.dto.member;
+
+public class Member {
+
+}

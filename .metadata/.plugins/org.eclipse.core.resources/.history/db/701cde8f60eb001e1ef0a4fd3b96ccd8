@@ -1,0 +1,21 @@
+package edu.kh.common;
+
+import java.io.FileOutputStream;
+
+public class CreateXmlFile {
+  
+	
+	public static void main(String[] args) {
+		
+		try {
+			
+			FileOutputStream fos = new FileOutputStream("driver.xml");
+			
+			
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+}

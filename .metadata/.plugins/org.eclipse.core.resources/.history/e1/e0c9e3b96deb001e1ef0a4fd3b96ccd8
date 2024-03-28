@@ -1,0 +1,46 @@
+package edu.kh.controller;
+
+import java.io.IOException;
+
+import edu.kh.member.service.Service;
+import edu.kh.model.dto.member.Member;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+import jakarta.websocket.Session;
+
+@WebServlet("/login")
+public class loginController extends HttpServlet{
+ 
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		Service servi = new Service();
+		
+		String id = req.getParameter("inputId");
+		String pw = req.getParameter("inputPw");
+		
+		Member member = servi.login(id,pw);
+		
+		
+		 HttpSession session = req.getSession();
+	      
+	      if(member == null) {
+	    	  
+	    	  
+	    	  
+	      }else {
+	    	  
+	    	  
+	    	  //로그인 성공시
+	    	  
+	    	  session.setAttribute("loginMember", member);
+	    	  
+	      }
+		
+	}
+	
+}

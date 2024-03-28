@@ -1,0 +1,34 @@
+package edu.kh.common;
+
+import java.io.FileInputStream;
+import java.sql.Connection;
+import java.util.Properties;
+
+public class JDBC_TEMPLATE {
+  
+	
+	private Connection conn = null;
+	
+	
+	public static Connection getConnection(Connection conn) {
+		
+		try {
+			
+			if(conn.isClosed() || conn == null) {
+				
+				Properties prop = new Properties();
+				
+				String filePath = JDBC_TEMPLATE.class.getResource("/edu/kh/xmlFile/driver.xml").getPath();
+				
+				prop.loadFromXML(new FileInputStream(filePath));
+				
+			}
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		return conn;
+		
+	}
+}

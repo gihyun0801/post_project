@@ -1,0 +1,16 @@
+1711450425317	Delete element
+1711450928283	Rename type 'Common'
+1711451315350	Move files
+1711452432086	Delete element
+1711456148506	Rename type 'service'
+1711457656551	Rename type 'Todo'
+1711457716082	Delete element
+1711457932897	Delete element
+1711536919793	Rename package 'edu.kh.model.dto.todo'
+1711536925343	Rename type 'Todo'
+1711536935371	Rename package 'edu.kh.service.todoService'
+1711536942482	Rename package 'edu.kh.todo.dao'
+1711536967144	Rename type 'TodoService'
+1711537136057	Rename resource 'todo.xml'
+1711609013434	Rename type 'updateList'
+1711609119584	Rename type 'UpdateList'

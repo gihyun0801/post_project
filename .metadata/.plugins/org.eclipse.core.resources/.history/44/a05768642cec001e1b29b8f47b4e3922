@@ -1,0 +1,9 @@
+package edu.kh.controller;
+
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+
+@WebServlet("/signup")
+public class SignUpController extends HttpServlet{
+ 
+}

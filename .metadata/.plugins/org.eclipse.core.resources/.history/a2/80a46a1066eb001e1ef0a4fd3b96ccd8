@@ -1,0 +1,23 @@
+package edu.kh.member.service;
+
+import java.sql.Connection;
+
+import static edu.kh.common.JDBC_TEMPLATE.*;
+import edu.kh.member.dao.DAO;
+import edu.kh.model.dto.member.Member;
+
+public class service {
+  
+	private DAO dao = new DAO();
+
+	public static Member login(String id, String pw) {
+		
+		Connection conn = JDBC_TEMPLATE
+		
+		
+		return null;
+	}
+	
+	
+	
+}

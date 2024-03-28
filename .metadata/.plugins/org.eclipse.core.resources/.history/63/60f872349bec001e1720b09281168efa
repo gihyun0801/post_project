@@ -1,0 +1,31 @@
+package edu.kh.post.controller;
+
+import java.io.IOException;
+
+import edu.kh.model.dto.member.Member;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@WebServlet("/updateList")
+public class updateList extends HttpServlet{
+  @Override
+protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	  
+	  //postNo=${st.postNo }
+	  
+	  Member member = (Member)req.getAttribute("loginMember");
+	  
+	  int memberNo = member.getMemberNo(); //맴버번호
+	   
+	  String postNo = req.getParameter("postNo"); //게시판 번호
+	  
+	  RequestDispatcher dis = req.getRequestDispatcher("/WEB-INF/views/update.jsp");
+	  
+	  
+	  
+}
+}

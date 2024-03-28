@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="org.apache.coyote.http11.Http11InputBuffer"/>
+    <fullyQualifiedTypeName name="jakarta.websocket.server.ServerEndpoint"/>
+    <fullyQualifiedTypeName name="edu.kh.member.service.service"/>
+    <fullyQualifiedTypeName name="jakarta.websocket.Session"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="edu.kh.model.dto.todoService.TodoService"/>
+    <fullyQualifiedTypeName name="edu.kh.service.todoService.TodoService"/>
+    <fullyQualifiedTypeName name="edu.kh.model.dto.todo.Todo"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="edu.kh.todo.dao.DAO"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="edu.kh.member.service.Service"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="jakarta.security.auth.message.callback.PrivateKeyCallback.Request"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="edu.kh.model.dto.member.Member"/>
+    <fullyQualifiedTypeName name="edu.kh.common.JDBC_TEMPLATE"/>
+    <fullyQualifiedTypeName name="edu.kh.service.postService.PostService"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="oracle.jdbc.proxy.annotation.Post"/>
+    <fullyQualifiedTypeName name="edu.kh.model.dto.post.Post"/>
+</qualifiedTypeNameHistroy>

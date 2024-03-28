@@ -1,0 +1,17 @@
+package edu.kh.member.service;
+
+import edu.kh.member.dao.DAO;
+import edu.kh.model.dto.member.Member;
+
+public class service {
+  
+	private DAO dao = new DAO();
+
+	public static Member login(String id, String pw) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+}

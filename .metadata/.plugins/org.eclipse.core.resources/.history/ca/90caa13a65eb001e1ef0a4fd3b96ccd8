@@ -1,0 +1,10 @@
+package edu.kh.model.dto.member;
+
+public class Member {
+ private int memberNo;
+ private String memberId;
+ private String memberPw;
+ private String memberName;
+ private String enrollDate;
+ prviate String memberDelFl;
+}

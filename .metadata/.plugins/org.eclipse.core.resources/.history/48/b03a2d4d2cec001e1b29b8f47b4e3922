@@ -1,0 +1,5 @@
+package edu.kh.controller;
+
+public class SignUpController {
+
+}

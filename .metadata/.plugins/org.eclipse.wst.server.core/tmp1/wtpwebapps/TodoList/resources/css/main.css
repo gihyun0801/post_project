@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+
+.main_box{
+   
+    margin:200px auto;
+   
+
+    
+}
+
+.body{
+   background: linear-gradient(184deg, #242535 30%, #776bf6 138%);
+}
+
+.input-btn{
+    width:350px;
+    height:50px;
+    border-radius: 25px;
+    border:none;
+    background-color:transparent;
+    margin-bottom:20px;
+    padding-left:30px;
+    outline-color:white;
+    font-size:20px;
+    box-shadow: 0px 0px 1px 1px white;
+    color:white;
+    transition: 0.3s;
+    
+}
+
+
+
+table{
+    margin:0 auto;
+    width:80%
+}
+
+.signup{
+    width:380px;
+    height:50px;
+    border-radius: 25px;
+    border:none;
+    outline-color:white;
+    color:white;
+    text-align:center;
+    line-height:50px;
+    background:linear-gradient(45deg, #ff6599, transparent);
+    text-decoration: none;
+    margin:0 auto;
+    position: relative;
+    right:60px;
+    font-size:13px;
+    bottom:30px;
+    display:block;
+}
+
+input::placeholder {
+    color: white;
+  }
+
+.input-btn:focus{
+    box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);;
+    outline-color: white;
+}
+
+.btn{
+    width:380px;
+    height:50px;
+    background-color:#f22f75;
+    border-radius: 25px;
+    outline:none;
+    border:none;
+    color:white;
+    cursor: pointer;
+    background:linear-gradient(45deg, #7cf2a3 -10%, #9C27B0 130%);
+}
+
+.form{
+    width:500px;
+    margin:50px auto;
+}
+
+.star{
+    width:250px;
+    height:250px;
+    border:3px solid white;
+    border-radius: 50%;
+    box-shadow:0px 0px 7px 2px white;
+    margin:0 auto;
+    font-size:150px;
+    text-align: center;
+    position:relative;
+    right:60px;
+    color:white;
+
+    
+
+}
+
+.p{
+
+    position:relative;
+    bottom:130px;
+    text-shadow: 0px 2px 16px #cb75dd, 2px 3px 10px #857e66;
+    
+}
+
+.td4{width:450px;}
+
+table{
+    color:white;
+   
+    width:80%;
+}
+body{
+    height:100vh
+}
+
+tr{
+    text-align: center;
+    height:80px;
+}
+
+.td_head_font{
+    font-size:24px;
+}
+
+.a_tag_btn{
+
+text-decoration: none;
+
+}
+
+.a_tag_btn{
+    display: block;
+    color: white;
+    width: 90px;
+    height: 80px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 80px;
+    border: none;
+ 
+    
+}
+
+#sujeong-btn{
+    background-color:#9494c1;
+}
+
+#delete-btn{
+    background-color:#c04f4f;
+}
+
+.addbtn{
+    display: inline-block;
+    width: 140px;
+    height: 60px;
+    text-decoration: none;
+    color: #a399e2;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+    background: linear-gradient(45deg, #1934e8, #c05c5c);
+    border-radius: 50px;
+    /* position: relative; */
+    float: right;
+    margin-top: 100px;
+    margin-right: 310px;
+}
+
+.logOut{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    color: #ebd363;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: center;
+    background: linear-gradient(45deg, #1096ff, #c05c5c);
+    border-radius: 50px;
+    position: relative;
+    float: right;
+    margin-bottom: 0px;
+    position: absolute;
+    /* bottom: 460px; */
+    /* left: 430px; */
+    right: 30px;
+    top: 50px;
+   
+}
+
+
+.empty_h2{
+    color:white;
+    font-size:25px;
+    text-align: center;
+}
+
+.insert_form{
+    width: 500px;
+    height: 300px;
+    margin: 450px auto;
+}

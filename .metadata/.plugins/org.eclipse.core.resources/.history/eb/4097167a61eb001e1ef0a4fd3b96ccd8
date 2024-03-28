@@ -1,0 +1,5 @@
+package edu.kh.common;
+
+public class JDBC_TEMPLATE {
+
+}

@@ -1,0 +1,26 @@
+package edu.kh.service.todoService;
+
+import java.sql.Connection;
+import java.util.List;
+
+import edu.kh.common.JDBC_TEMPLATE;
+import edu.kh.model.dto.todo.Todo;
+import edu.kh.todo.dao.DAO;
+
+public class  TodoService{
+
+	private DAO todoDao = new DAO(); 
+	
+	public List<Todo> search(int memberNo) {
+		
+		Connection conn = JDBC_TEMPLATE.getConnection();
+		
+		List<Todo> list = dao.search(conn, memberNo);
+		
+		JDBC_TEMPLATE.close(conn);
+		
+		
+		return list;
+	}
+
+}

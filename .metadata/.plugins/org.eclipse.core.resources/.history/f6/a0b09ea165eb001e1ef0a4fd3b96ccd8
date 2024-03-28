@@ -1,0 +1,9 @@
+package edu.kh.member.service;
+
+public class service {
+  
+	private DAO dao = new DAO();
+	
+	
+	
+}

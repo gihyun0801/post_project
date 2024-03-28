@@ -1,0 +1,11 @@
+package edu.kh.member.service;
+
+import edu.kh.member.dao.DAO;
+
+public class service {
+  
+	private DAO dao = new DAO();
+	
+	
+	
+}
