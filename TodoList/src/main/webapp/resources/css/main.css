@@ -1,6 +1,15 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
+body{
+   
+        font-family: "Nanum Pen Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
 .main_box{
    
     margin:200px auto;
@@ -101,7 +110,7 @@ input::placeholder {
 .p{
 
     position:relative;
-    bottom:130px;
+    bottom:102px;
     text-shadow: 0px 2px 16px #cb75dd, 2px 3px 10px #857e66;
     
 }
@@ -120,6 +129,7 @@ body{
 tr{
     text-align: center;
     height:80px;
+    font-size:29px;
 }
 
 .td_head_font{
@@ -211,17 +221,18 @@ text-decoration: none;
 }
 
 .insert_btn{
-    background-color:#f22f75;
     border-radius: 25px;
-    outline:none;
-    border:none;
-    color:white;
+    outline: none;
+    border: none;
+    color: white;
     cursor: pointer;
-    background:linear-gradient(45deg, #27709b -10%, #9C27B0 130%);
-    font-size:17px;
-    transition:0.1s linear;
+    background: linear-gradient(192deg, #815d29 -10%, #3368ff 130%);
+    font-size: 17px;
+    transition: 0.1s linear;
     outline: none;
     box-sizing: border-box;
+    height: 60px;
+    font-weight:900;
 }
 
 .insert_btn:hover{
@@ -253,19 +264,47 @@ text-decoration: none;
 }
 
 .signup-form{
-    width: 400px;
+    width: 500px;
     margin: 0 auto;
     display: grid;
     row-gap: 70px;
 }
 
 .input-size{
-    width: 39%;
+    width: 302px;
     height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.2s linear;
 }
 
 .span_check{
     width:55%;
-    line-height: 35px;
+    line-height: 53px;
+}
+
+.sign_up_h1{
+    text-align: center;
+    color:white;
+    font-size:30px;
+    margin-bottom:50px;
+}
+
+#inputPw{
+    width:250px;
+    height:30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.2s linear;
+}
+
+#inputPw:focus{
+    box-shadow: 0px 0px 3px 4px white;
+}
+
+.input-size:focus{
+    box-shadow: 0px 0px 3px 4px white;
 }
 

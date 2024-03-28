@@ -3,15 +3,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+  
    <link rel="stylesheet" href="/resources/css/main.css">
 <meta charset="UTF-8">
 <title>회원가입</title>
+
 </head>
 <body style="   background: linear-gradient(184deg, #242535 30%, #776bf6 138%);">
    <main>
    
-    <h1>회원가입</h1>
+    <h1 class="sign_up_h1">회원가입</h1>
     
     <form action="/signup" method="post" class="signup-form" onsubmit="return check()">
      
@@ -36,7 +37,7 @@
        
       
        
-       <br><br>
+     
        
        <button class="insert_btn">가입하기</button>
       
